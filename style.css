@@ -1,0 +1,88 @@
+body {
+    background-image: url(backgorund.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-size:100%;
+}
+.sidebar {
+    width: 0;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    background-image: linear-gradient(to bottom, rgb(161, 81, 170), rgb(29, 5, 32));
+    transition: width 0.5s;
+    z-index: 3;
+    linha-sidebar {
+        opacity: 0;
+    }
+}
+.sidebar-aberta {
+    width: 35%;
+}
+.botao-sidebar-menu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.topicos {
+    list-style-type: none;
+}
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 2rem;
+    margin: 0 10px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.lista1 {
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.alista {
+    display: none;
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    padding: 4px 40px;
+    font-size: 30px;
+    text-align: left;
+    transition: 0.25s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.alista:hover {
+    font-size: 31px;
+}
+
+.linha-sidebar {
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.w--100 {
+    width: 30% !important;
+}
+
+.carousel-item {
+    text-align: center !important;
+}
+
+.visually-hidden {
+    color: black !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(seta-direita.png) !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(seta-esquerda.png) !important;
+}

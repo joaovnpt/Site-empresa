@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  ---body-color: #eff0f4;
+  ---sidebar-color: #fff;
+  ---primary-color: #695cfe;
+  ---primary-color-light: #f6f5ff;
+  ---toggle-color: #dddddd84;
+  ---text-color: #707070;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+main {
+  padding: 20px;
+}
+
+.contact {
+  text-align: center;
+  /* Centraliza o conteúdo do formulário */
+  margin: 50px auto;
+  /* Adiciona margens para centralizar verticalmente */
+  max-width: 600px;
+  /* Define a largura máxima do formulário */
+  justify-content: center;
+  text-align: center;
+}
+
+/* Estilos para o formulário de contato */
+.contact form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 15px;
+}
+
+/* Estilos para os elementos do formulário */
+.contact form label,
+.contact form input,
+.contact form textarea,
+.contact form input[type="submit"] {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact form input[type="submit"] {
+  background-color: #695cfe;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact form input[type="submit"]:hover {
+  background-color: #4239a5;
+}.contact form input,*/ {
+  align-items: center;
+  /* Centraliza verticalmente */
+  padding: 20px;
+  background-color: #fbfbfb;
+  border-radius: 3px;
+  text-align: center;
+  /* Para centralizar o texto */
+}
+
+.info-header {
+  list-style: none;
+  margin: 0 30px;
+  /* Margem entre os elementos */
+}
+
+.info-header a {
+  color: black;
+}
+
+.info-header a:hover {
+  color: rgb(72, 72, 186);
+}
+
+h2 {
+    color: white;
+    justify-content: center;
+}
+
+
+.contact form input[type='radio']{
+    display: inline;
+    width: auto;
+}
+
+.contact form fieldset label{
+    border: none;
+}
+
+.contact form>fieldset {
+    padding: 0 15px;
+}
